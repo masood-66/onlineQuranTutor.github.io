@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+one{
+    --background-color: rgb(92, 186, 218);
+    --primary-color: orange;
+    --hover-color: rgb(174, 117, 12) ;
+}
+.contact-details a{
+text-decoration: none;
+}
+#sec-one .icons a i{
+   color: white;
+}
+#sec-one{
+    padding: 15px 30px ;
+    background-color: var(--background-color);
+    background-color: rgb(48, 172, 210);
+}
+
+/*   navbar */
+
+.navbar .navbar-brand{
+    -webkit-text-stroke: .5px white;
+    color: orange;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: math;
+    transition: 1s ease;
+}
+.navbar .navbar-brand:hover{
+    -webkit-text-stroke:0px ;
+    color: orange;
+}
+
+.navbar-nav .nav-link{
+    color: orange;
+    
+}
+.navbar-nav .nav-item{
+padding-left: 20px;    
+}
+.navbar-nav .nav-link:hover{
+color: rgb(131, 93, 23);
+
+}
+
+#nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar{
+    background-color: black;
+    padding: 10px;
+}
+
+.dropdown-menu li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    transition: .5s ease;
+   
+  }
+
+.dropdown-menu li a:hover{
+background-color: orange;
+  }
+
+
+  /*   profileeee======= */
+  #profile{
+    /* background: black; */
+    /* background: url(./assets/image/pawel-czerwinski-6lQDFGOB1iw-unsplash.jpg); */
+    background-color:white;
+    background-size: cover;
+    /* background-position: center; */
+  }
+
+  #blur{
+    backdrop-filter: blur(2px);
+  }
+
+  #profile h4{
+    font-family: math;
+text-transform: capitalize; 
+font-size: 30px;  
+ border-bottom: 2px solid orange;
+ font-weight: bold;
+ color: black;
+    /* border-radius: 20px; */
+    /* padding: 5px; */
+    /* width: 135px; */
+  }
+  #profile h1{
+        font-size: 39px;
+        color: orange;
+        text-transform: capitalize;
+        font-family: math;
+  
+  
+  }
+
+  @media (max-width:600px) {
+    #profile-img{
+        width: 150px;
+        /* height: 150px; */
+    }
+
+    
+    
+  }
+
+  #profile-img{
+max-width:200px;
+border: 1px solid orange;  
+  box-shadow: 3px 3px  30px gray, 3px 3px  40px rgb(204, 199, 199);
+  }
+
+  .profile-name{
+    text-transform: capitalize;
+    font-family: math;
+    font-size: 30px;
+    color: orange;
+  }
+
+a{
+  text-decoration: none;
+}
+  .course{
+    /* max-width: 80%; */
+box-shadow: 2px 2px 10px rgb(190, 188, 188);
+background-color: #0000;
+margin: 20px 90px 20px 20px ;
+padding: 20px;
+border-radius: 20px;
+display: flex;
+justify-content: left;
+  }
+
+  .course img{
+    border-radius: 20px;
+    height: 150px;
+    width: 10px;
+  }
+
+
+
+  .course img{
+  width: 20%;
+  }
+
+
+  /* footer starts here */
+  .footer{
+    background-color: black;
+    padding: 50px 0;
+
+  }
+
+  #footer-inner{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* align-items: center; */
+    color: #fff;
+    
+  }
+
+  .inner-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .inner-1 h2, .inner-2 h3 , .inner-3 h3 {
+color: orange;
+font-family: math;
+text-transform: capitalize;
+  }
+
+
+  .inner-1 span i{
+    color: orange;
+  }
+
+  .inner-2 li{
+    list-style: none;
+    padding-top: 10px;
+  }
+
+  .inner-2 li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s ease;
+   
+  }
+
+  .inner-2 li a:hover{
+border-bottom: 1px solid orange;
+  }
+
+  .inner-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.inner-3 i{
+    font-size: 20px;
+padding: 10px;
+    color: #fff;
+}
+
+.inner-3 i:hover{
+    color: orange;
+}
+
+.footer .copyright {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.copyright b{
+    color: orange;
+    text-transform: capitalize;
+}
